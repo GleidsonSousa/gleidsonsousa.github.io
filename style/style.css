@@ -1,28 +1,34 @@
 *{
 margin: 0%;
 border: 0%;
-  background-repeat: no-repeat;
-background-size: 1900px;
+background-color: black;
 }
 
 .pub{
   margin-top: 1%;
  border-radius: 15%;
- margin-left: 2.0%;
+
  display:flex;
+
 }
 .quem{
-margin-left: 1%;
+margin-top: 2%;
 color: azure;
 height: 350px;
 width: 275px;
-border-radius: 5%;
-
+border: solid 3px;
+border-color: white;
+border-radius: 2%;
 
 }
 .M{
-
-  margin-left: 25%;
-  margin-top: -27%;
+margin-top: 5%;
 color: white;
+background-color:white;
+}
+.FPOO, .SOP, .LIMA, .HARE{
+padding-top: 1%;
+border-color: white;
+border: solid 2px;
+padding-bottom: 1%;
 }

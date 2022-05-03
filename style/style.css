@@ -1,28 +1,87 @@
 *{
 margin: 0%;
 border: 0%;
-  background-repeat: no-repeat;
-background-size: 1900px;
+background-color: black;
 }
 
 .pub{
   margin-top: 1%;
  border-radius: 15%;
- margin-left: 2.0%;
+
  display:flex;
+
 }
 .quem{
-margin-left: 1%;
+margin-top: 2%;
 color: azure;
-height: 350px;
+height: 100%;
 width: 275px;
-border-radius: 5%;
-
+border: solid 3px;
+border-color: white;
+border-radius: 2%;
 
 }
 .M{
-
-  margin-left: 25%;
-  margin-top: -27%;
+margin-top: 5%;
 color: white;
+background-color:white;
+}
+.FPOO, .SOP, .LIMA, .HARE{
+padding-top: 1%;
+border-color: white;
+border: solid 2px;
+padding-bottom: 1%;
+height: 100%;
+width:100%;
+
+}
+.TBHTML{
+  padding: 0 10%;
+  display:flex;
+  justify-content: space-around;
+
+}
+.img1, .img2 , .img3{
+  margin-top: 10%;
+  margin-left: -560px;
+  width:900px;
+  height:510px;
+}
+.main{
+  width: 45%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0  px;
+  grid-row-gap: 30px;
+}
+.div1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.div2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.div3 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+
+.div4 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+.div5 {
+  grid-area: 3 / 1 / 4 / 2;
+}
+
+.div6 {
+  grid-area: 3 / 2 / 4 / 3;
+}
+
+.hl-txt h2{
+  margin-left: 40px;
+ margin-top: 32.5px;
+  font-size: 17pt;
+  color:aliceblue;
 }

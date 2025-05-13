@@ -3,8 +3,8 @@
   const hpValueEl = document.getElementById('hpValue');
   const hpBarInner = document.getElementById('hpBarInner');
   const MAX_BRICKS = 50; // 5 linhas x 10 colunas
-  const ROWS = 12;
-  const COLS = 8;
+  const ROWS = 20;
+  const COLS = 30;
   
   // Cores disponíveis e HP inicial relacionado
   const wallTypes = [

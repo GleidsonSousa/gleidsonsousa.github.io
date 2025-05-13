@@ -12,9 +12,9 @@ body, html {
   user-select: none;
 }
 #game {
-  width: 100%;
+  width: 90vw;
   max-width: 90vw;
-  height: 100%;
+  height: 100vh;
   max-height: 95vh;
   background: #222;
   border-radius: 12px;
@@ -31,7 +31,8 @@ body, html {
   gap: 3px 3px;
   user-select: none;
   cursor: grab;
-  width: 80%;
+  width: 80vw;
+  height: 60vh;
   margin: 20px 0 10px 0;
   position: relative;
 }
@@ -139,19 +140,8 @@ body, html {
 }
 #info {
   color: #ddd;
-  font-size: 2rem;
+  font-size: 4rem;
   letter-spacing: 0.05em;
   user-select: none;
 }
-/* Responsividade para telas pequenas */
-/* @media (max-width: 360px) {
-  #game {
-    width: 500px;
-    height: 600px;
-  }
-  #wall {
-    max-width: 900px;
-    grid-template-columns: repeat(8, 1fr);
-    grid-auto-rows: 22px;
-  }
-} */
+

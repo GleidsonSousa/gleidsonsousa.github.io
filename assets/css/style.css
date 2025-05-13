@@ -147,11 +147,11 @@ body, html {
 /* Responsividade para telas pequenas */
 @media (max-width: 360px) {
   #game {
-    width: 320px;
-    height: 560px;
+    width: 500px;
+    height: 600px;
   }
   #wall {
-    max-width: 280px;
+    max-width: 900px;
     grid-template-columns: repeat(8, 1fr);
     grid-auto-rows: 22px;
   }

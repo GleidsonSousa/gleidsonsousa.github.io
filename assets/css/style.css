@@ -1,5 +1,5 @@
 /* Reset básico */
-* {
+/* * {
   box-sizing: border-box;
 }
 body, html {
@@ -10,7 +10,8 @@ body, html {
   justify-content: center;
   align-items: center;
   user-select: none;
-}
+} */
+
 #game {
   width: 90vw;
   max-width: 90vw;

@@ -1,21 +1,109 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
-<title>Mini Game Muro Realista</title>
-<link rel="stylesheet" href="./assets/css/style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio</title>
+  <link rel="stylesheet" href="./styles/home.css" />
+  <link rel="stylesheet" href="./styles/global.css" />
 </head>
 <body>
-  <div><img src="./assets/image.png" alt="manutenção" srcset=""></div>
-  <!-- <div id="game" role="main" aria-label="Mini game de muro para socar">
-    <div id="hpLabel" aria-live="polite">HP: <span id="hpValue"></span></div>
-    <div id="hpBar" aria-hidden="true">
-      <div id="hpBarInner"></div>
+
+<!-- Overlay de Aviso -->
+
+<div id="intro-overlay">
+
+  <div class="intro-card">
+
+<button id="close-btn" disabled>
+  Fechar (5)
+</button>
+
+<h1>⚠️ Aviso</h1>
+
+<p>
+  Este portfólio ainda está em desenvolvimento.
+</p>
+
+<p>
+  Alguns projetos, funcionalidades e refinamentos visuais permanecem incompletos neste momento.
+  Decidi publicá-lo mesmo assim porque acredito que evolução profissional também envolve
+  constância, adaptação e continuidade.
+</p>
+
+<p>
+  Nos últimos meses enfrentei desafios pessoais e profissionais que impactaram diretamente
+  meu ritmo de desenvolvimento e a finalização de alguns projetos.
+  Ainda assim, sigo estudando, construindo e aprimorando minhas habilidades diariamente.
+</p>
+
+<p>
+  Este portfólio representa minha trajetória, aprendizado e compromisso com crescimento contínuo
+  como desenvolvedor.
+</p>
+
+<p>
+  Caso queira entrar em contato, enviar feedbacks, sugestões ou esclarecer dúvidas, você pode me chamar através do e-mail:
+</p>
+
+<p class="contact">
+  📩 gleidson2090@gmail.com
+</p>
+
+  </div>
+
+</div>
+
+
+</div>
+  <header>
+    <nav class="navbar">
+      <ul>
+        <li> <button id="open-warning" title="Abrir aviso"> ! </button> </li>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./pages/about.html">About me</a></li>
+        <li><a href="./pages/projetos.html">Projetos</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+</div>
+  <!-- index.html -->
+  <div id="shape-container">
+<div class="lottie-card">
+  <lottie-player
+    src="./assets/CyberSecurity Net lock.json"
+    background="transparent"
+    speed="1"
+    loop
+    autoplay>
+  </lottie-player>
+</div>
+  </div>
+
+  <canvas id="inkCanvas"></canvas>
+  <div class="main">
+    <img src="./assets/detonado.png" alt="Minha Foto" class="profile-pic" />
+    <div class="text-content">
+      <h1>Welcome</h1>
+      <p>Oops, what's up?</p>
+      <p>I'm Gleidson.</p>
+      <p>Feel free to browse.</p>
+      <button>Talk to me</button>
+      <h2 class="typing-text">FullStack Developer</h2>
     </div>
-    <div id="wall" tabindex="0" aria-label="Muro para socar" role="button"></div>
-    <div id="info" aria-live="polite" style="margin-top:10px;">Toque/click para socar o muro!</div>
-  </div> -->
-  <script src="./assets/js/script.js"></script>
+  </div>
+
+<script type="importmap">
+  {
+    "imports": {
+      "three": "https://cdn.skypack.dev/three@0.136.0"
+    }
+  }
+  </script>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  <script type="module" src="./js/home.js"></script>
+
 </body>
 </html>

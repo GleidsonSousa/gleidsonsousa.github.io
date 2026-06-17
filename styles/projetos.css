@@ -1,0 +1,153 @@
+/* RESET */
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/* BODY */
+
+body{
+
+min-height: 100vh;
+
+background: #050505;
+
+color: white;
+
+font-family: Arial, Helvetica, sans-serif;
+
+padding: 50px 20px;
+
+}
+
+/* CONTAINER */
+
+.projects-container{
+
+width: 100%;
+max-width: 1300px;
+
+margin: 0 auto;
+
+}
+
+/* HEADER */
+
+.projects-header{
+
+text-align: center;
+
+margin-bottom: 60px;
+
+}
+
+.projects-header h1{
+
+font-size: 2.8rem;
+
+color: #ff073a;
+
+margin-bottom: 20px;
+
+}
+
+.projects-header p{
+
+font-size: 1.1rem;
+
+color: #bdbdbd;
+
+max-width: 700px;
+
+margin: 0 auto;
+
+line-height: 1.7;
+
+}
+
+/* GRID */
+
+.projects-grid{
+
+display: grid;
+
+grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+
+gap: 25px;
+
+}
+
+/* CARD */
+
+.project-card{
+
+background: rgba(255,255,255,0.03);
+
+border: 1px solid rgba(255,255,255,0.08);
+
+border-radius: 18px;
+
+height: 220px;
+
+display: flex;
+
+flex-direction: column;
+
+justify-content: center;
+align-items: center;
+
+transition: 0.3s;
+
+cursor: pointer;
+
+}
+
+.project-card:hover{
+
+transform: translateY(-5px);
+
+border-color: #ff073a;
+
+box-shadow: 0 0 25px rgba(255, 7, 58, 0.2);
+
+}
+
+/* TITULO */
+
+.project-card h2{
+
+margin-bottom: 15px;
+
+font-size: 1.3rem;
+
+}
+
+/* STATUS */
+
+.project-card span{
+
+color: #ff073a;
+
+font-weight: bold;
+
+letter-spacing: 1px;
+
+}
+
+/* RESPONSIVO */
+
+@media(max-width: 768px){
+
+.projects-header h1{
+
+    font-size: 2rem;
+}
+
+.projects-header p{
+
+    font-size: 1rem;
+}
+
+}
